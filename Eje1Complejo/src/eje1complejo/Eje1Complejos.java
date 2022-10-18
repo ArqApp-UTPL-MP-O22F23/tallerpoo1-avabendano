@@ -15,7 +15,17 @@ public class Eje1Complejos {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) {
+        Complejo complejoA = new Complejo(3, 5);
+        Complejo complejoB = new Complejo(4, 1);
+        
+        Complejo sumaComplejos = complejoA.sumar(complejoB);
+        Complejo restaComplejos = complejoA.restar(complejoB);
+        
+        System.out.println("La suma de " + complejoA + " + " + complejoB + " es: " + sumaComplejos);
+        System.out.println("La resta de " + complejoA + " - " + complejoB + " es: " + restaComplejos);
+    }
 
     
 }
